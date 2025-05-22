@@ -1358,3 +1358,172 @@ html {
   color: #555;
   line-height: 1.6;
 }
+
+.party-packages {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.packages-container .package {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.packages-container .package h2 {
+  color: #333;
+  font-size: 1.5em;
+}
+
+.packages-container .package ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+.add-ons-container ul {
+  list-style: square;
+  margin-left: 20px;
+}
+.party-packages {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.packages-container .package {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.packages-container .package h2 {
+    color: #333;
+    font-size: 1.5em;
+}
+
+.packages-container .package ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.add-ons-container ul {
+    list-style: square;
+    margin-left: 20px;
+}
+
+/* Party Packages Section */
+.party-packages {
+  padding: 5rem 10%;
+  background: linear-gradient(135deg, #f9f9f9, #ffffff);
+  text-align: center;
+}
+
+.party-packages .heading {
+  font-size: 3.5rem;
+  color: #333;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.packages-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.package {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  padding: 2.5rem;
+  text-align: center;
+  width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.package:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.package h2 {
+  font-size: 2rem;
+  color: #007bff;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.package h2 span {
+  color: #333;
+  font-weight: bold;
+}
+
+.package p {
+  font-size: 1.6rem;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+
+.package ul {
+  list-style: disc;
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+  text-align: left;
+}
+
+.package ul li {
+  font-size: 1.4rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+.package .btn {
+  margin-top: 2rem;
+  padding: 1rem 2.5rem;
+  background: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.package .btn:hover {
+  background: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Add-ons Section */
+.add-ons-container {
+  margin-top: 4rem;
+  text-align: left;
+  max-width: 900px;
+  margin: 4rem auto 0;
+}
+
+.add-ons-container h3 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+.add-ons-container ul {
+  list-style: square;
+  margin-left: 2rem;
+}
+
+.add-ons-container ul li {
+  font-size: 1.6rem;
+  color: #555;
+  margin-bottom: 0.8rem;
+}
