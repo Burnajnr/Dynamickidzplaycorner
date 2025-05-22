@@ -5,21 +5,21 @@
       "price": "$249",
       "description": "Access to all indoor play areas, small or large jump house based on age, themed tableware (plates, napkins, balloons), free gift for the birthday child.",
       "addOns": ["Pizza", "Juice", "Party favors", "Snacks"],
-      "kidsLimit": "up to 10 kids"
+   
     },
     {
       "name": "Deluxe Party Package",
       "price": "$379",
       "description": "Everything in the Basic Package, PLUS: Catered Pizza (2 large), juice boxes for each child, chips/snack bags, party favors for each child, party host assistance.",
       "addOns": ["Small or large jump house based on age", "Free gift for the birthday child"],
-      "kidsLimit": "up to 12 kids"
+
     },
     {
       "name": "Ultimate PLUS Party Package",
       "price": "$499",
       "description": "Everything in the Deluxe Package, PLUS: Additional catered food: Pizza + Sandwich Platter, upgraded party favors (themed bags), balloon décor (arch or column), digital invite template.",
       "addOns": ["Small or large jump house based on age", "Free gift for the birthday child"],
-      "kidsLimit": "up to 15 kids"
+      
     }
   ],
   "addOns": [
