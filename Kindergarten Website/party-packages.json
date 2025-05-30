@@ -1,0 +1,32 @@
+{
+  "packages": [
+    {
+      "name": "Basic Fun Package",
+      "price": "$249",
+      "description": "Access to all indoor play areas, small or large jump house based on age, themed tableware (plates, napkins, balloons), free gift for the birthday child.",
+      "addOns": ["Pizza", "Juice", "Party favors", "Snacks"],
+   
+    },
+    {
+      "name": "Deluxe Party Package",
+      "price": "$379",
+      "description": "Everything in the Basic Package, PLUS: Catered Pizza (2 large), juice boxes for each child, chips/snack bags, party favors for each child, party host assistance.",
+      "addOns": ["Small or large jump house based on age", "Free gift for the birthday child"],
+
+    },
+    {
+      "name": "Ultimate PLUS Party Package",
+      "price": "$499",
+      "description": "Everything in the Deluxe Package, PLUS: Additional catered food: Pizza + Sandwich Platter, upgraded party favors (themed bags), balloon décor (arch or column), digital invite template.",
+      "addOns": ["Small or large jump house based on age", "Free gift for the birthday child"],
+      
+    }
+  ],
+  "addOns": [
+    { "name": "Extra child", "price": "$15 each" },
+    { "name": "Additional pizza or sandwich tray", "price": "Market pricing" },
+    { "name": "Custom cake or cupcakes", "price": "Pricing available upon request" },
+    { "name": "Extra time", "price": "$75 per 30 minutes" }
+  ]
+}
+
