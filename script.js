@@ -34,3 +34,35 @@ fetch('party-packages.json')
         addOnsContainer.appendChild(addOnsList);
     })
     .catch(error => console.error('Error loading party packages:', error));
+
+    const carouselItems = document.querySelectorAll('.carousel-item');
+const prevBtn = document.querySelector('.prev-btn');
+const nextBtn = document.querySelector('.next-btn');
+let currentIndex = 0;
+
+// Function to show the current carousel item
+function showItem(index) {
+  carouselItems.forEach((item, i) => {
+    item.classList.remove('active');
+    if (i === index) {
+      item.classList.add('active');
+    }
+  });
+}
+
+// Event listeners for navigation buttons
+prevBtn.addEventListener('click', () => {
+  currentIndex = (currentIndex - 1 + carouselItems.length) % carouselItems.length;
+  showItem(currentIndex);
+});
+
+nextBtn.addEventListener('click', () => {
+  currentIndex = (currentIndex + 1) % carouselItems.length;
+  showItem(currentIndex);
+});
+
+// Auto-play functionality
+setInterval(() => {
+  currentIndex = (currentIndex + 1) % carouselItems.length;
+  showItem(currentIndex);
+}, 5000); // Change slide every 5 seconds
